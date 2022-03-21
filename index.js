@@ -1,8 +1,6 @@
 const Discord = require("discord.js")
 require("dotenv").config()
 
-const TOKEN ="OTI2NTc5NjcwMzU3NTQwODc0.Yc9ukA.cLBbwvd7FFKv6xnA0kMfxaOTn7k"
-
 const client = new Discord.Client({
     intents: [
         "GUILDS",
@@ -45,4 +43,4 @@ client.on("voiceStateUpdate", (oldVoiceState, newVoiceState) => { // Listeing to
     };
 });
 
-client.login(TOKEN)
+client.login(process.env.TOKEN)
