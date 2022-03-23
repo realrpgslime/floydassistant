@@ -40,13 +40,7 @@ client.on("messageCreate", (message) => {
 })
 
 client.on("messageCreate", (message) => {
-    if (message.content == "tuxedo"){
-        message.reply("https://c.tenor.com/5tJefIiRVfkAAAAd/blm-george-floyd.gif")
-    }
-})
-
-client.on("messageCreate", (message) => {
-    if (message.content == "rap"){
+    if (message.content == "tuxedo || rap"){
         message.reply("https://c.tenor.com/5tJefIiRVfkAAAAd/blm-george-floyd.gif")
     }
 })
@@ -58,56 +52,13 @@ client.on("messageCreate", (message) => {
 })
 
 client.on("messageCreate", (message) => {
-    if (message.content == "breathe"){
+    if (message.content == "breathe || breath || oxygen || co2 || breathing || breatheless"){
         message.reply("https://www.youtube.com/watch?v=5Qn8zxhHs44")
     }
 })
 
 client.on("messageCreate", (message) => {
-    if (message.content == "breathe"){
-        message.reply("https://www.youtube.com/watch?v=5Qn8zxhHs44")
-    }
-})
-
-client.on("messageCreate", (message) => {
-    if (message.content == "breath"){
-        message.reply("https://www.youtube.com/watch?v=5Qn8zxhHs44")
-    }
-})
-
-client.on("messageCreate", (message) => {
-    if (message.content == "oxygen"){
-        message.reply("https://www.youtube.com/watch?v=5Qn8zxhHs44")
-    }
-})
-
-client.on("messageCreate", (message) => {
-    if (message.content == "co2"){
-        message.reply("https://www.youtube.com/watch?v=5Qn8zxhHs44")
-    }
-})
-
-client.on("messageCreate", (message) => {
-    if (message.content == "breathing"){
-        message.reply("https://www.youtube.com/watch?v=5Qn8zxhHs44")
-    }
-})
-
-client.on("messageCreate", (message) => {
-    if (message.content == "breatheless"){
-        message.reply("https://www.youtube.com/watch?v=5Qn8zxhHs44")
-    }
-})
-
-
-client.on("messageCreate", (message) => {
-    if (message.content == "dollar"){
-        message.reply("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTExvcU8AmdSTj6VOWvQd8naAREvegdxECk4g&usqp=CAU")
-    }
-})
-
-client.on("messageCreate", (message) => {
-    if (message.content == "money"){
+    if (message.content == "dollar || money"){
         message.reply("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTExvcU8AmdSTj6VOWvQd8naAREvegdxECk4g&usqp=CAU")
     }
 })
@@ -119,13 +70,7 @@ client.on("messageCreate", (message) => {
 })
 
 client.on("messageCreate", (message) => {
-    if (message.content == "floyd what about our generation"){
-        message.reply("https://www.youtube.com/watch?v=1f7i1HIm7-g")
-    }
-})
-
-client.on("messageCreate", (message) => {
-    if (message.content == "generation"){
+    if (message.content == "floyd what about our generation || generation"){
         message.reply("https://www.youtube.com/watch?v=1f7i1HIm7-g")
     }
 })
